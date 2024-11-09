@@ -4,8 +4,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/")
 public class Controller {
-
-    //("/") + ("/hello")
     @GetMapping("/hello")
     public String getHello(@RequestParam String str) {
         return str;
