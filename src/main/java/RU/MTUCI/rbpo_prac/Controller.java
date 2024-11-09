@@ -1,6 +1,5 @@
 package RU.MTUCI.rbpo_prac;
 import org.springframework.web.bind.annotation.*;
-
 @RestController
 @RequestMapping("/")
 public class Controller {
